@@ -6,7 +6,7 @@ menu:
   Tags: tags  # 标签
   Repository: repository  # github repositories
   # Books: books  # 豆瓣书单
-  Links: links  # 友链
+  # Links: links  # 友链
   About: about  # 关于
 
 # Enable/Disable menu icons.（font awesome）
@@ -18,7 +18,7 @@ menu_icons:
   tags: fa-tags
   repository: fa-code
   # books: fa-leanpub
-  links: fa-gg
+  # links: fa-gg
   about: fa-coffee
 
 # rss
@@ -207,7 +207,7 @@ profile:
     - 游戏开发
   # My Personal Works
   works:
-    name:
+    ExcelExport: 
       link: https://github.com/leolichenxi/ExcelExport
       date: 2020
   # My Personal Projects
