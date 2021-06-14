@@ -170,7 +170,7 @@ profile:
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
   author: 李晨曦
   author_title: Game Developer & U3D,UE4
-  author_description: 个人简介。
+  author_description: Game Developer & U3D,UE4
   location: Shanghai, China
   follow: https://github.com/leolichenxi
   # Social Links
