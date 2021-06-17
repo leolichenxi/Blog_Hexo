@@ -209,3 +209,8 @@ return "todo"可修改为lua相关的json库，比如cjson
 
 如果手写Lua 需要调用翻译的lua class 时，如果不知道如何new对象等，参考TestClass2, 创建一个专门的class 用来测试 翻译出的如何new 对象。
 
+
+### 适配踩坑
+
+Unity工程适配 ToLua支持，Xlua 实际测试不支持，如果在Xlua 使用，不得依赖UnityEngine 相关库。
+
