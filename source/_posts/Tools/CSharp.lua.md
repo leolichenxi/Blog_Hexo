@@ -135,6 +135,76 @@ t:Debug()
 
 将![截图](/images/csharplua/5.png) copy 到工程，新建main.lua
 
+
+### 第三方库引用
+
+CompileScript 工程添加Newtonsoft库
+
+```
+using System;
+using Newtonsoft.Json;
+namespace CompileScript.Core
+{
+    public class Test
+    {
+        public int a;
+        public int b;
+
+        public Test()
+        {
+            
+        }
+
+        public void Debug()
+        {
+          
+            Console.WriteLine(a + b);
+
+            Console.WriteLine(JsonConvert.SerializeObject(this));
+        }
+
+    }
+    
+}
+
+```
+编译指令
+
+> G:\Learning\CsharpLua\CSharpLuaTools>dotnet CSharp.lua.Launcher.dll -s ../CompileScript/CompileScript/CompileScript/Core -d ../Export -l ../3rd/Newtonsoft.Json.dll
+
+运行代码 报错
+
+![截图](/images/csharplua/6.png)
+
+
+> 这里第三方库dll的实现需要自己适配
+
+这里适配 NewtonsoftJson.JsonConvert.SerializeObject(this)
+
+
+新建 NewtonsoftJson.lua
+
+
+```
+Newtonsoft = {}
+Newtonsoft.Json = {}
+Newtonsoft.Json.JsonConvert = {}
+Newtonsoft.Json.JsonConvert.SerializeObject = function (obj)
+     return "todo"
+end
+
+return Newtonsoft
+```
+
+return "todo"可修改为lua相关的json库，比如cjson
+
+
+### 注意事项
+
+* 第三方库的依赖尽量少依赖
+* 如果有需要查看适配结果，多测试
+* 核心库CoreSystem.Lua 文件夹下的适配了多数System。
+
 ### Tip
 
 如果手写Lua 需要调用翻译的lua class 时，如果不知道如何new对象等，参考TestClass2, 创建一个专门的class 用来测试 翻译出的如何new 对象。
