@@ -1,6 +1,6 @@
 ---
 title: 1.从Unlit-Color开始入手
-categories: Unlit-Color
+categories: ShaderLab
 tags: builtin_shaders
 date: 2021-06-14 12:00:00
 toc: true

@@ -1,6 +1,6 @@
 ---
-title: AAB
-categories: AAB
+title: AndroidAppBundle
+categories: U3D
 tags: AAB
 date: 2021-06-14 12:00:00
 toc: true

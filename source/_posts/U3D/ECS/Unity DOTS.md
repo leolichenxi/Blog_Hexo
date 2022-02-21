@@ -1,6 +1,6 @@
 ---
 title: Unity DOTS
-categories: DOTS Job
+categories: U3D
 tags: 框架
 date: 2021-08-30 12:00:00
 toc: true
