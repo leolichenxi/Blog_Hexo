@@ -7,6 +7,8 @@ toc: true
 ---
 
 # Pure 设置记录
+
+新电脑环境设置：
 [文档地址](https://github.com/cofess/hexo-theme-pure/blob/master/README.cn.md)
 
 ### 背景动态设置
