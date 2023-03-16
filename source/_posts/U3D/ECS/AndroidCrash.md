@@ -119,16 +119,19 @@ Java 崩溃就是在 Java 代码中，出现了未捕获异常，导致程序异
 # 崩溃分析
 
 1. 堆栈信息查找
-2. log日志，尤其是warning error相关
-3. 机型信息  GPU 内存 系统 厂商 信息等共性信息，(有可能某个厂商特定修改)
-4. 复现步骤
-5. 前后台信息
+2. log日志，尤其是warning error相关;
+3. 机型信息  GPU 内存 系统 厂商 信息等共性信息，(有可能某个厂商特定修改);
+4. 复现步骤;
+5. 前后台信息;
+6. 图形API vukan opengl 版本的bug.
 
   
 # 工具
 
 addr2line，objdump，ndk-stack等几个工具
 
+# crash上报第三方
+CrashSight Bugly Firebase
 
 # 问题记录
 
