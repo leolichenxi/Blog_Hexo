@@ -11,6 +11,12 @@ toc: true
 [地址文档] (https://hexo.io/zh-cn)
 
 
+hexo g -生成
+
+hexo s -开启服务器
+
+hexo d -生成上传
+
 ### markdown 图片测试问题
 
 > 在写.md文档时，采用在source 目录下新建个images文件夹。引用图片直接 (/images/图片名)
