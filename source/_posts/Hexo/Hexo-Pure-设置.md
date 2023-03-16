@@ -8,8 +8,11 @@ toc: true
 
 # Pure 设置记录
 
-新电脑环境设置：
+
+hexo-theme-pure git文档地址：
 [文档地址](https://github.com/cofess/hexo-theme-pure/blob/master/README.cn.md)
+
+
 
 ### 背景动态设置
 [背景动画](https://link.csdn.net/?target=https%3A%2F%2Fgithub.com%2Fhustcc%2Fcanvas-nest.js) 基于canvas，在\themes\pure\layout\layout.ejs的body中面添加

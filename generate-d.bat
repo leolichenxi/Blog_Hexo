@@ -1,1 +1,1 @@
-hexo d
+hexo dnpm install -g hexo-cli

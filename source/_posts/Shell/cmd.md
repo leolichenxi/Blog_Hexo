@@ -8,9 +8,9 @@ toc: true
 
 ###  ipconfig /flushdns
 
-### ipconfig
+###  ipconfig
 
-### ping
+###  ping
 
-### cd
+###  cd
 
