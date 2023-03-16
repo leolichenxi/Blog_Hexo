@@ -42,6 +42,10 @@ Java 崩溃就是在 Java 代码中，出现了未捕获异常，导致程序异
   
   代码层或资源内存泄漏
 
+  1. java.lang.outofmemory
+  2. GL_OUT_OF_MEMORY 
+  3. vukan out of memory
+
 * NullPointerException 
 
   空指针异常
