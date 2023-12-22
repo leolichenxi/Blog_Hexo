@@ -1,5 +1,5 @@
 ---
-title: JetBrains
+title: JetBrains快捷键
 categories: Tools
 tags: JetBrains
 date: 2023-12-22 12:00:00
